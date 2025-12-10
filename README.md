@@ -34,12 +34,40 @@ git clone https://github.com/novakamiii/student-list-laravel.git
 cd {cloned-repository-name}
 ```
 
-4. Run this command.
+4. Edit your .env file for your database credentials:
+
+```
+// Example:
+
+    DB_CONNECTION=mariadb //Change which database connection you are using (Ex: sqlite, mysql, etc.)
+    DB_HOST=127.0.0.1
+    DB_PORT=3306
+    DB_DATABASE=studentlist
+    DB_USERNAME=root
+    DB_PASSWORD=paulo
+```
+
+4. Run this commands first.
 ```
 npm i
 npm run build
 ```
-then
+
+```
+php artisan tinker
+```
+
+then in tinker shell:
+```
+use App\Models\Student
+```
+
+```
+Student::factory()->count(75)->create()
+```
+
+exit the tinker shell and then:
+
 ```
 composer run dev
 ```
