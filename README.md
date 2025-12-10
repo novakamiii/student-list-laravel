@@ -26,7 +26,7 @@ https://laravel.com/docs/12.x/installation
 
 2. Clone this repository to your preferred location.
 ```
-git clone https://github.com/novakamiii/Tetsu-laravel-vue-webshop.git
+git clone https://github.com/novakamiii/student-list-laravel.git
 ```
 
 3. Change your directory to the cloned repository.
