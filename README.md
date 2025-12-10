@@ -47,7 +47,7 @@ cd {cloned-repository-name}
     DB_PASSWORD=paulo
 ```
 
-4. Run this commands first.
+5. Run this commands first.
 ```
 npm i
 npm run build
@@ -72,7 +72,7 @@ exit the tinker shell and then:
 composer run dev
 ```
 
-5. A log will show on where's the website link, it would show up like this:
+6. A log will show on where's the website link, it would show up like this:
 ```
 [server]    INFO  Server running on [http://127.0.0.1:8000]. <--- ctrl + mouse1.
 ```
